@@ -69,6 +69,8 @@ logshield quota
 
 ## Example
 
+![LogShield in action](example.jpg)
+
 **Input:**
 ```
 User mario.rossi@company.it connected from 8.8.8.8
