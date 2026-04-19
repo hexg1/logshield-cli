@@ -174,7 +174,7 @@ def _make_bindings() -> KeyBindings:
 
 def run_tui() -> None:
     _print_banner()
-    console.print("  [dim]Enter[/dim] = new line  [dim]|[/dim]  [dim]Alt+Enter[/dim] = send\n")
+    console.print("  [dim]Enter[/dim] = new line  [dim]|[/dim]  [dim]Alt+Enter[/dim] / [dim]Esc+Enter[/dim] = send\n")
     session: PromptSession = PromptSession(
         multiline=True,
         key_bindings=_make_bindings(),
