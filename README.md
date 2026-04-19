@@ -87,13 +87,7 @@ AWS key: [REDACTED:aws_key]
 
 ## Pricing
 
-| Plan  | Calls/month | Price  |
-|-------|-------------|--------|
-| FREE  | 250         | $0     |
-| HOBBY | 6,000       | $12.99 |
-| PRO   | 50,000      | $49.99 |
-
-Available on [RapidAPI](https://rapidapi.com/hexg1/api/logshield).
+Available on [RapidAPI](https://rapidapi.com/hexg1/api/logshield) — free tier included.
 
 ---
 
