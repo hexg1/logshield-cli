@@ -110,9 +110,9 @@ def _cmd_privacy() -> None:
 
 def _print_quota_warning(quota_pct: float) -> None:
     if quota_pct >= 95:
-        console.print(f"\n[bold red]🔴 QUOTA AL {quota_pct:.0f}% — upgrade ora: rapidapi.com/logshield[/bold red]")
+        console.print(f"\n[bold red]🔴 Quota at {quota_pct:.0f}% — upgrade now: rapidapi.com/hexg1/api/logshield[/bold red]")
     elif quota_pct >= 80:
-        console.print(f"\n[yellow]⚠  Quota all'{quota_pct:.0f}% — considera l'upgrade prima di esaurirla[/yellow]")
+        console.print(f"\n[yellow]⚠  Quota at {quota_pct:.0f}% — consider upgrading before you run out[/yellow]")
 
 
 def _sanitize_text(text: str) -> None:
