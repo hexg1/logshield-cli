@@ -91,6 +91,8 @@ AWS key: [REDACTED:aws_key]
 
 Your text is sent to the LogShield API over HTTPS and processed in memory. **No input text is stored or logged.** Only anonymous usage counters (call count, character count) are recorded for quota tracking.
 
+> **Disclaimer:** LogShield is a privacy-assistance tool. While it uses advanced algorithms (Luhn validation, NER, regex patterns), it does not guarantee 100% detection of all sensitive data. The user remains solely responsible for any data sent to third parties. No liability is accepted for undetected sensitive information.
+
 ---
 
 ## Pricing

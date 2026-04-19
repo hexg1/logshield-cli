@@ -106,6 +106,12 @@ def _cmd_privacy() -> None:
     table.add_row("[green]✓[/green]", "Only API usage is logged (anonymously)")
     table.add_row("[green]✓[/green]", "HTTPS-only, no credentials stored")
     console.print(Panel(table, title="Privacy & Security", border_style="green"))
+    console.print(
+        "\n[dim]DISCLAIMER: LogShield is a privacy-assistance tool. While it uses advanced algorithms "
+        "(Luhn validation, NER, regex), it does not guarantee 100% detection of all sensitive data. "
+        "The user remains solely responsible for any data sent to third parties. "
+        "No liability is accepted for undetected sensitive information.[/dim]"
+    )
 
 
 def _print_quota_warning(quota_pct: float) -> None:
